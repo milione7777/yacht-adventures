@@ -135,7 +135,7 @@ body {
     right: 0;
     z-index: 50;
     overflow-y: auto;
-    padding: 38.5px 20px 0px 20px;
+    padding: 37.5px 20px 0px 20px;
     background-color: #11131f;
     animation: burgerAnimation 0.4s;
     @media screen and (min-width: 1600px) {
@@ -173,7 +173,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 19px;
+  margin-bottom: 18px;
 }
 
 .list-menu + .list-menu {
@@ -205,9 +205,10 @@ body {
   font-size: 36px;
   font-weight: 500;
   line-height: 110%;
-  letter-spacing: -4.5%;
+
   text-align: left;
   color: #f6f5ef;
+  width: 335px;
 }
 
 .span {
@@ -322,6 +323,7 @@ body {
 }
 
 .card {
+  background-color: #11131f;
   padding-right: 20px;
 }
 
@@ -398,4 +400,100 @@ body {
   font-weight: 700;
   line-height: 110%;
   letter-spacing: -4.5%;
+}
+
+.card-box {
+  width: 335px;
+  height: 469px;
+  background: rgb(31, 33, 45);
+  margin-left: 20px;
+  padding: 18px;
+  border-radius: 24px;
+}
+
+.box-img {
+  border-radius: 24px;
+  width: 299px;
+  height: 251px;
+}
+
+.w-100 {
+  width: 299px !important;
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+.button-carousel {
+  margin-top: 500px;
+  opacity: 1;
+  color: #fff;
+  width: 46px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid rgb(246, 245, 239);
+  border-radius: 60px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.carousel-text {
+  padding-top: 24px;
+  color: rgb(246, 245, 239);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -4.5%;
+  margin-bottom: 12px;
+}
+
+.carousel-text-2 {
+  color: gray;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 3%;
+  padding-top: 26px;
+  margin-left: auto;
+}
+
+.position-text {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.text-title {
+  color: rgb(246, 245, 239);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 3%;
+}
+
+.position-title {
+  padding: 0;
+}
+
+.text-title-2 {
+  width: 58px;
+  color: rgb(246, 245, 239);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 3%;
+}
+
+.li-title {
+  display: flex;
+  column-gap: 36px;
+}
+
+.li-title + .li-title {
+  margin-top: 6px;
 }
